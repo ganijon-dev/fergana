@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="copyright" content="2019 Ganijon Toshtemurov. All Rights Reserved.">
+        <meta name="keywords" content="Ganijon Toshtemurov, Ganijon, Front-end, Website, developer, development, IT, front end, graphic design, design, UI, UX">
+        <meta name="description" content="Ganijon, Front-End developer portfolio">
+        <!-- FontAwesome for Navbar on Mobile Devices -->   
+        <script src="https://kit.fontawesome.com/9b73432d00.js" crossorigin="anonymous"></script>
+        <!-- Linking Custom Fonts -->
+        
+        <!-- Swiper JS for Portfolio Slider -->
+        
+        <!-- Poppins Font -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,800&display=swap" rel="stylesheet">
+        <!-- CSS -->
+        
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <link rel="stylesheet" href="css/lightbox.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <title>Ganijon Toshtemurov</title>
+            
+            
+            <!-- Scrool Reveal Plugin -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="nav-wrapper">
+            <div class="menu-toggle" onclick="onClickMenu()">
+                <a><i class="fas fa-bars" id="navigation-bar"></i></a>
+                <a><i class="fas fa-times"id="navigation-times"></i></a>
+            
+                
+            </div>
+            
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#">Меню</a>
+                    </li>
+                    <li>
+                        <a href="#">Галерея</a>
+                    </li>
+                    <li>
+                        <a href="#" id="logo"><img src="img/fergana-logo.jpg"  alt="Фергана"></a>
+                    </li>
+                    <li>
+                        <a href="#">Банкеты и Бронирование</a>
+                    </li>
+                    <li>
+                        <a href="#">О нас</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </div>
+            <!-- Clearing Floats -->
+            <div class="clearfix"></div>
+            <!-- End of Navigation -->
+        </header>
+
+        <div class="swiper-container" id="slider-1">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="img/slider3.jpg"></div>
+                  <div class="swiper-slide"><img src="img/slider2.jpg"></div>
+                  <div class="swiper-slide"><img src="img/slider3.jpg"></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+        </div>
+
+        
+        <div class="container">
+            <section class="story">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="image-frame">
+                            <div class="image-box">
+                                <img src="img/1.png" alt="Image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="story">
+                            <h3 class="story-title"> Our  Story</h3>
+                            <p class="story-desc">Самые вкусные, сытные, ароматные блюда  национальной кухни можно попробовать у нас в ресторане Фаргона, потому что в основе нашей работы стоит вкус наших блюд</p>
+                            <p class="story-info"></p>
+                            <p class="story-info"><i class="dot pr-2 fa fa-circle-o"></i>Фергана это - Lorem ipsum dolor, sit</p>
+                            <p class="story-info"><i class="dot pr-2 fa fa-circle-o"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p class="story-info"><i class="dot pr-2 fa fa-circle-o"></i>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="recommended-menu">
+                    <div class="recommended-menu-title">Фирменые Блюды</div>
+                    <div class="row">
+
+                        <div class="col-md-3" id="first-item">
+                            <div class="recommended-item" >
+                                <div class="recommended-image">
+                                    <img src="img/food.png">
+                                </div>
+                                <div class="recommended-item-info">
+                                    <div class="recommended-item-description">Lorem, ipsum dolor.</div>
+                                    <div class="recommended-item-price">$19.00</div>
+                                    <div class="heart-icon">
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="recommended-item">
+                                <div class="recommended-image">
+                                    <img src="img/food.png">
+                                </div>
+                                <div class="recommended-item-info">
+                                    <div class="recommended-item-description">Lorem, ipsum dolor.</div>
+                                    <div class="recommended-item-price">$19.00</div>
+                                    <div class="heart-icon">
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="recommended-item">
+                                <div class="recommended-image">
+                                    <img src="img/food.png">
+                                </div>
+                                <div class="recommended-item-info">
+                                    <div class="recommended-item-description">Lorem, ipsum dolor.</div>
+                                    <div class="recommended-item-price">$19.00</div>
+                                    <div class="heart-icon">
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="recommended-item">
+                                <div class="recommended-image">
+                                    <img src="img/food.png">
+                                </div>
+                                <div class="recommended-item-info">
+                                    <div class="recommended-item-description">Lorem, ipsum dolor.</div>
+                                    <div class="recommended-item-price">$19.00</div>
+                                    <div class="heart-icon">
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <section class="main-menu">
+                <div class="main-menu-title"> 
+                    <h3>Наше Меню</h3>
+                </div>
+                <div class="menu-header">
+                    <ul class="menu-items">
+                        <li><a>Супы</a></li>
+                        <li><a>Основное Блюда</a></li>
+                        <li><a>Шашлыки</a></li>
+                        <li><a>Салаты</a></li>
+                    </ul>
+                </div>
+
+                <div class="menu-box">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="menu-item">
+                                <div class="item-image-box">
+                                    <img src="img/meal1.png">
+                                </div>
+                                <div class="item-info">
+                                    <div class="item-title">Ферганский Суп</div>
+                                    <div class="item-price">20.00</div>
+                                    <div class="item-ingredients">Картошка | Марковь | Lorem </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="menu-item">
+                                <div class="item-image-box">
+                                    <img src="img/meal1.png">
+                                </div>
+                                <div class="item-info">
+                                    <div class="item-title">Ферганский Суп</div>
+                                    <div class="item-price">20.00</div>
+                                    <div class="item-ingredients">Картошка | Марковь | Lorem </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="menu-item">
+                                <div class="item-image-box">
+                                    <img src="img/meal1.png">
+                                </div>
+                                <div class="item-info">
+                                    <div class="item-title">Ферганский Суп</div>
+                                    <div class="item-price">20.00</div>
+                                    <div class="item-ingredients">Картошка | Марковь | Lorem </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="menu-item">
+                                <div class="item-image-box">
+                                    <img src="img/meal1.png"> 
+                                </div>
+                                <div class="item-info">
+                                    <div class="item-title">Ферганский Суп</div>
+                                    <div class="item-price">20.00</div>
+                                    <div class="item-ingredients">Картошка | Марковь | Lorem </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="menu-item">
+                                <div class="item-image-box">
+                                    <img src="img/meal1.png"> 
+                                </div>
+                                <div class="item-info">
+                                    <div class="item-title">Ферганский Суп</div>
+                                    <div class="item-price">20.00</div>
+                                    <div class="item-ingredients">Картошка | Марковь | Lorem </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="menu-item">
+                                <div class="item-image-box">
+                                    <img src="img/meal1.png">
+                                </div>
+                                <div class="item-info">
+                                    <div class="item-title">Ферганский Суп</div>
+                                    <div class="item-price">20.00</div>
+                                    <div class="item-ingredients">Картошка | Марковь | Lorem </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <div class="menu-item">
+                                <div class="item-image-box">
+                                    <img src="img/meal1.png">  
+                                </div>
+                                <div class="item-info">
+                                    <div class="item-title">Ферганский Суп</div>
+                                    <div class="item-price">20.00</div>
+                                    <div class="item-ingredients">Картошка | Марковь | Lorem </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="menu-item">
+                                <div class="item-image-box">
+                                    <img src="img/meal1.png">
+                                </div>
+                                <div class="item-info">
+                                    <div class="item-title">Ферганский Суп</div>
+                                        <div class="item-price">20.00</div>
+                                        <div class="item-ingredients">Картошка | Марковь | Lorem </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="menu-item">
+                                <div class="item-image-box">
+                                    <img src="img/meal1.png">
+                                </div>
+                                <div class="item-info">
+                                    <div class="item-title">Ферганский Суп</div>
+                                    <div class="item-price">20.00</div>
+                                    <div class="item-ingredients">Картошка | Марковь | Lorem </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="menu-item">
+                                <div class="item-image-box">
+                                    <img src="img/meal1.png">
+                                </div>
+                                <div class="item-info">
+                                    <div class="item-title">Ферганский Суп</div>
+                                    <div class="item-price">20.00</div>
+                                    <div class="item-ingredients">Картошка | Марковь | Lorem </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </section>
+        </div>
+
+        <section class="gallery">
+            <div class="container-fluid">
+                <div class="gallery-box">
+                    <h2 class="gallery-title">Галерея</h2>
+                    <div class="gallery-images">
+                        <div class="gallery-item">
+                            <a href="img/appet.jpg" data-lightbox= "mygallery"><img src="img/appet.jpg"></a>
+                        </div>
+                        <div class="gallery-item">
+                            <a href="img/appet.jpg" data-lightbox= "mygallery"><img src="img/appet.jpg"></a>
+                        </div>
+                        <div class="gallery-item">
+                            <a href="img/appet.jpg" data-lightbox= "mygallery"><img src="img/appet.jpg"></a>
+                        </div>
+                        <div class="gallery-item">
+                            <a href="img/appet.jpg" data-lightbox= "mygallery"><img src="img/appet.jpg"></a>
+                        </div>
+                        <div class="gallery-item">
+                            <a href="img/appet.jpg" data-lightbox= "mygallery"><img src="img/appet.jpg"></a>
+                        </div>
+                        <div class="gallery-item">
+                            <a href="img/appet.jpg" data-lightbox= "mygallery"><img src="img/appet.jpg"></a>
+                        </div>
+                    </div>
+
+                </div>
+        </div>
+        </section>
+
+        <div class="container">
+            <section class="reservation">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="reservation-image">
+                            <img src="img/Chef.png" alt="Chef">
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="reservation-form">
+                            <h4 class="reservation-form-title">Забронировать Столик</h4>
+                            <div class="working-hours">с Понедельника по Воскресенье <span>9:00 - 23:00</span></div>
+                            <div class="reservation-phone"> +992 909 88 08 88</div>
+                            <form action="POST">
+                                <div class="row">
+
+                                    <div class="col-md-6">
+                                        <div class="reservation-form-fields">
+                                            <label for="name">Ваше Имя</label>
+                                            <input type="text" name="name" placeholder="Кадами Курбон">  
+                                        </div>
+                                        <div class="reservation-form-fields">
+                                            <label for="phone">Номер Телефона</label>
+                                            <input type="text" name="phone" placeholder="Ваш номер">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="reservation-form-fields">
+                                            <label for="appointment">Дата и Время</label>
+                                            <input id="today" type="date" name="appointment">
+                                            <input type="time" name="appointment" min="6:00" max="23:00" id="time" value="18:00" step="1200">
+                                        </div>
+                                        <div class="reservation-form-fields">
+                                            <label for="name">Мест</label>
+                                            <input type="text" name="seats" placeholder="4 место">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <button type="submit" form="form" value="Submit" id="form-btn">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="reviews">
+                <div class="reviews-header"> <h3>Наши Клиенты Говорят</h3> </div>
+
+                    <div class="swiper-container" id="slider-2">
+                        <div class="swiper-wrapper">
+                            
+                            <div class="swiper-slide">
+                                    <figure>
+                                            <blockquote class="reviews-content">
+                                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quam placeat, provident repudiandae odit sequi fugiat qui aut, at perferendis nam dolor nesciunt. Itaque nulla perferendis illum aliquam veritatis amet harum laborum alias quae vitae facilis, corporis reprehenderit explicabo delectus?
+                                            </blockquote>
+                                            <figcaption class="review-author">-MDN editors</figcaption>
+                                          </figure>
+                            </div>
+                            <div class="swiper-slide">
+                                <figure>
+                                    <blockquote class="reviews-content">
+                                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quam placeat, provident repudiandae odit sequi fugiat qui aut, at perferendis nam dolor nesciunt. Itaque nulla perferendis illum aliquam veritatis amet harum laborum alias quae vitae facilis, corporis reprehenderit explicabo delectus?
+                                    </blockquote>
+                                    <figcaption class="review-author">-MDN editors</figcaption>
+                                </figure>
+                            </div>
+                        
+                            
+                            <div class="swiper-slide">
+                                 <figure>
+                                    <blockquote class="reviews-content">
+                                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quam placeat, provident repudiandae odit sequi fugiat qui aut, at perferendis nam dolor nesciunt. Itaque nulla perferendis illum aliquam veritatis amet harum laborum alias quae vitae facilis, corporis reprehenderit explicabo delectus?
+                                    </blockquote>
+                                    <figcaption class="review-author">-MDN editors</figcaption>
+                                </figure>
+                            </div>
+                            <div class="swiper-slide">
+                                 <figure>
+                                    <blockquote class="reviews-content">
+                                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quam placeat, provident repudiandae odit sequi fugiat qui aut, at perferendis nam dolor nesciunt. Itaque nulla perferendis illum aliquam veritatis amet harum laborum alias quae vitae facilis, corporis reprehenderit explicabo delectus?
+                                    </blockquote>
+                                    <figcaption class="review-author">-MDN editors</figcaption>
+                                </figure>
+                            </div>
+                                
+                        </div>
+                         <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    
+                </div>
+            </section>
+        </div>
+        <section class="map">
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A71f4ef985f9ff9792d26143d997eee318378caa51a42d73e5e472e0d361d03de&amp;width=100%25&amp;height=430&amp;lang=ru_RU&amp;scroll=true"></script>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="about-us">
+                            <div class="about-us-title"> О нас</div>
+                            <div class="about-us-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa a fugit maxime vel voluptas! Optio? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa a fugit maxime vel voluptas! Optio?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa a fugit maxime vel voluptas! Optio?</div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="contacts">
+                            <div class="contacts-title"> Контакты</div>
+                            <div class="contacts-info">
+                                <div class="contacts-address"><i class="mr-2 fas fa-map-marker-alt fa-2x"></i> Проспект Рудаки 173</div>
+                                <div class="contacts-email"><i class="mr-2 far fa-envelope fa-2x"></i> husainov@gmail.com</div>
+                                <div class="contacts-phone"><i class="mr-2 fas fa-phone-square-alt fa-2x"></i> +992 909 880888</div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="instagram">
+                            <div class="instagram-title">Instagram</div>
+                            <div class="instagram-images">
+                                <div class="instagram-image"><img src="img/inst-1.jpg" alt=""></div>
+                                <div class="instagram-image"><img src="img/inst-2.jpg"  alt=""></div>
+                                <div class="instagram-image"><img src="img/inst-3.jpg"  alt=""></div>
+                                <div class="instagram-image"><img src="img/inst-4.jpg"  alt=""></div>
+                                <div class="instagram-image"><img src="img/inst-5.jpg"  alt=""></div>
+                                <div class="instagram-image"><img src="img/inst-6.jpg"  alt=""></div>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/swiper.min.js"></script>      
+    <script src="js/script.js"></script>
+     
+    
+</body>
+    
